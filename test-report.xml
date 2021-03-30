@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="/Users/quangdang/Documents/Learning/NodeJs/modules/redux-example/src/components/Product.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/NodeJs/modules/redux-example/src/components/Product.spec.js" hostname="localhost" tests="2" failures="0" time="3.149" timestamp="2021-03-30T19:24:27">
+    <properties>
+    </properties>
+    <testcase classname="Product component" name="should render title and price" time="0">
+    </testcase>
+    <testcase classname="when given inventory" name="should render title, price, and inventory" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="1" name="/Users/quangdang/Documents/Learning/NodeJs/modules/redux-example/src/reducers/products.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/NodeJs/modules/redux-example/src/reducers/products.spec.js" hostname="localhost" tests="4" failures="0" time="3.249" timestamp="2021-03-30T19:24:27">
+    <properties>
+    </properties>
+    <testcase classname="when products are received" name="contains the products from the action" time="0">
+    </testcase>
+    <testcase classname="when products are received" name="contains no other products" time="0">
+    </testcase>
+    <testcase classname="when products are received" name="lists all of the products as visible" time="0">
+    </testcase>
+    <testcase classname="when an item is added to the cart" name="the inventory is reduced" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="2" name="/Users/quangdang/Documents/Learning/NodeJs/modules/redux-example/src/containers/App.test.js" errors="0" package="/Users/quangdang/Documents/Learning/NodeJs/modules/redux-example/src/containers/App.test.js" hostname="localhost" tests="0" failures="0" time="0" timestamp="1970-01-01T00:00:00">
+    <properties>
+    </properties>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="3" name="/Users/quangdang/Documents/Learning/NodeJs/modules/redux-example/src/components/ProductItem.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/NodeJs/modules/redux-example/src/components/ProductItem.spec.js" hostname="localhost" tests="6" failures="0" time="3.372" timestamp="2021-03-30T19:24:27">
+    <properties>
+    </properties>
+    <testcase classname="ProductItem component" name="should render product" time="0">
+    </testcase>
+    <testcase classname="ProductItem component" name="should render Add To Cart message" time="0">
+    </testcase>
+    <testcase classname="ProductItem component" name="should not disable button" time="0">
+    </testcase>
+    <testcase classname="ProductItem component" name="should call action on button click" time="0">
+    </testcase>
+    <testcase classname="when product inventory is 0" name="should render Sold Out message" time="0">
+    </testcase>
+    <testcase classname="when product inventory is 0" name="should disable button" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="4" name="/Users/quangdang/Documents/Learning/NodeJs/modules/redux-example/src/components/ProductsList.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/NodeJs/modules/redux-example/src/components/ProductsList.spec.js" hostname="localhost" tests="2" failures="0" time="3.28" timestamp="2021-03-30T19:24:27">
+    <properties>
+    </properties>
+    <testcase classname="ProductsList component" name="should render title" time="0">
+    </testcase>
+    <testcase classname="ProductsList component" name="should render children" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="5" name="/Users/quangdang/Documents/Learning/NodeJs/modules/redux-example/src/components/Cart.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/NodeJs/modules/redux-example/src/components/Cart.spec.js" hostname="localhost" tests="6" failures="0" time="3.42" timestamp="2021-03-30T19:24:27">
+    <properties>
+    </properties>
+    <testcase classname="Cart component" name="should display total" time="0">
+    </testcase>
+    <testcase classname="Cart component" name="should display add some products message" time="0">
+    </testcase>
+    <testcase classname="Cart component" name="should disable button" time="0">
+    </testcase>
+    <testcase classname="when given product" name="should render products" time="0">
+    </testcase>
+    <testcase classname="when given product" name="should not disable button" time="0">
+    </testcase>
+    <testcase classname="when given product" name="should call action on button click" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="6" name="/Users/quangdang/Documents/Learning/NodeJs/modules/redux-example/src/reducers/cart.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/NodeJs/modules/redux-example/src/reducers/cart.spec.js" hostname="localhost" tests="5" failures="0" time="3.52" timestamp="2021-03-30T19:24:27">
+    <properties>
+    </properties>
+    <testcase classname="cart" name="should provide the initial state" time="0">
+    </testcase>
+    <testcase classname="cart" name="should handle CHECKOUT_REQUEST action" time="0">
+    </testcase>
+    <testcase classname="cart" name="should handle CHECKOUT_FAILURE action" time="0">
+    </testcase>
+    <testcase classname="cart" name="should handle ADD_TO_CART action" time="0">
+    </testcase>
+    <testcase classname="when product is already in cart" name="should handle ADD_TO_CART action" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="7" name="/Users/quangdang/Documents/Learning/NodeJs/modules/redux-example/src/reducers/index.spec.js" errors="0" package="/Users/quangdang/Documents/Learning/NodeJs/modules/redux-example/src/reducers/index.spec.js" hostname="localhost" tests="2" failures="0" time="3.535" timestamp="2021-03-30T19:24:27">
+    <properties>
+    </properties>
+    <testcase classname="getTotal" name="should return price total" time="0">
+    </testcase>
+    <testcase classname="getCartProducts" name="should return products with quantity" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
